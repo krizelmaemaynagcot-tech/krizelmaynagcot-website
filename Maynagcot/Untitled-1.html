@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krizel Mae Maynagcot - Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+header{
+    background:#0056d6;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:50px;
+}
+
+header p{
+    margin-top:10px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:30px 0;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+.profile{
+    text-align:center;
+}
+
+.profile img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #0056d6;
+}
+
+h2{
+    color:#0056d6;
+    margin-bottom:15px;
+}
+
+ul, ol{
+    margin-left:25px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.service-box{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.orange{border-bottom:5px solid orange;}
+.green{border-bottom:5px solid #00cfc8;}
+.blue{border-bottom:5px solid blue;}
+.yellow{border-bottom:5px solid gold;}
+
+.video-container{
+    text-align:center;
+}
+
+video{
+    width:100%;
+    max-width:700px;
+    border-radius:10px;
+}
+
+footer{
+    background:#0056d6;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>KRIZEL MAE MAYNAGCOT</h1>
+    <p>Grade 12 ICT Student | Future Web Developer</p>
+</header>
+
+<div class="container">
+
+    <!-- Profile -->
+    <div class="card profile">
+        <img src="photo/krizel.jpeg" alt="photo.jpg>
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is <b>Krizel Mae R. Maynagcot</b>.
+            I am a Grade 12 ICT student who enjoys programming,
+            web design, graphic design, and creating digital projects.
+        </p>
+    </div>
+
+    <!-- Hobbies -->
+    <div class="card">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Listening to Music</li>
+            <li>Watching Movies</li>
+            <li>Coding</li>
+            <li>Reading Books</li>
+        </ul>
+    </div>
+
+    <!-- Favorite Website -->
+    <div class="card">
+        <h2>Favorite Website</h2>
+        <a href="https://www.instagram.com/kri.zey" target="_blank">
+            Visit My Instagram
+        </a>
+    </div>
+
+    <!-- Fun Facts -->
+    <div class="card">
+        <h2>Fun Facts About Me</h2>
+        <p><b>Favorite Color:</b> Blue</p>
+        <p><b>Favorite Food:</b> Adobo</p>
+        <p><b>Dream Job:</b> Criminologist</p>
+    </div>
+
+    <!-- Water Pump Reflection -->
+    <div class="card">
+        <h2>The Water Pump</h2>
+
+        <img src="photo/pump.jpeg" alt="photo.jpg" width="100%">
+
+        <h3 style="margin-top:20px;">My Reflection</h3>
+
+        <p>
+            This reminds me of the importance of water in our daily lives.
+            Water is essential for survival and many communities depend on
+            simple technologies such as water pumps.
+        </p>
+
+        <br>
+
+        <p>
+            Many communities still use pumps every day to collect clean
+            water for drinking, cooking, and other household needs.
+        </p>
+
+        <br>
+
+        <p>
+            This picture highlights the connection between people and nature,
+            showing how resources should be used responsibly.
+        </p>
+
+        <br>
+
+        <h3>Things I See</h3>
+        <ul>
+            <li>Blue, Orange, and Black Colors</li>
+            <li>Green Leaves</li>
+        </ul>
+
+        <br>
+
+        <h3>Events</h3>
+        <ol>
+            <li>Before: People gathered around the area to collect water.</li>
+            <li>During: Water flowed out for collection and use.</li>
+            <li>After: The pump was left ready for the next user.</li>
+        </ol>
+    </div>
+
+    <!-- Video Section -->
+    <div class="card video-container">
+        <h2>My Introduction Video</h2>
+
+        <video controls>
+            <source src="video/krizel.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <p style="margin-top:15px;">
+            Welcome to my personal portfolio website.
+        </p>
+    </div>
+
+    <!-- Skills -->
+    <div class="services">
+        <div class="service-box orange">
+            <h3>Graphic Design</h3>
+            <p>Creating posters, logos, and digital artwork.</p>
+        </div>
+
+        <div class="service-box green">
+            <h3>Web Design</h3>
+            <p>Building attractive and responsive websites.</p>
+        </div>
+
+        <div class="service-box blue">
+            <h3>Software</h3>
+            <p>Learning programming and software development.</p>
+        </div>
+
+        <div class="service-box yellow">
+            <h3>Application</h3>
+            <p>Developing useful applications and projects.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Krizel Mae Maynagcot | ICT Student Portfolio
+</footer>
+
+</body>
+</html>
